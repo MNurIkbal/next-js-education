@@ -1,21 +1,14 @@
-import Navbar from "@/layout/navbar";
-import { Geist, Geist_Mono } from "next/font/google";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+import Navbar from "@/layout/navbar"
 
 export default function Home() {
   return (
     <>
-    <Navbar />
-    <h1 className="bg-primary">OK</h1>
+      <Navbar/>
+      <h1>Halaman Home</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime minima dicta eligendi facilis dolores assumenda asperiores magnam nobis voluptas cumque! Accusantium, maiores reprehenderit. Esse numquam nemo velit quae expedita
+        tempore!
+      </p>
     </>
-  )
+  );
 }
