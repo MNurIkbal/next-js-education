@@ -2,3 +2,30 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  background-color: blue;
+  padding: 20px;
+}
+
+.navigation  {
+  color: white !important;
+  text-decoration: none;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 10px;
+}
+
+nav ul {
+  display: flex;
+}
+
+.navigation:hover {
+  color: rgb(43, 232, 43) !important;
+}
